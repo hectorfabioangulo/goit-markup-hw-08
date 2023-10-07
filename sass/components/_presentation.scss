@@ -1,0 +1,48 @@
+.presentation {
+    background-color: $black;
+    font-family: 'Roboto', sans-serif;
+    color: $white;
+    line-height: 1.8em;
+    height: 600px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    background-image: linear-gradient(to bottom,
+            rgba(47, 48, 58, 0.4),
+            rgba(0, 0, 0, 0.4)), url(../images/soluciones\ eficases.jpg);
+    padding-top: 50px;
+}
+
+.presentation__container {
+    display: flex;
+    flex-direction: column;
+    width: 945px;
+    align-items: center;
+    padding: 94px;
+}
+
+.presentation__title {
+    font-family: 'Roboto', sans-serif;
+    color: $white;
+    line-height: 1.3em;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.presentation__button {
+    background-color: $blue;
+    color: $white;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.18em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 10px 20px;
+    border-radius: 4px;
+}

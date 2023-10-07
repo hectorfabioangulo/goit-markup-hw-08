@@ -1,0 +1,115 @@
+.footer__directions {
+
+    color: $white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8em;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 70px;
+}
+
+.footer__container {
+    background-color: $background-title;
+}
+
+.footer__address {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 62px;
+}
+
+.footer__network-item {
+    display: inline-flex
+}
+
+
+.footer__link-list {
+    list-style: none;
+    font-style: normal;
+    padding: 0%;
+    width: 231px;
+    height: 92px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71em;
+    letter-spacing: 0.42px;
+}
+
+.footer__location {
+    color: $footcolor;
+    transition: 250ms $cubic-bezier-animation;
+}
+
+.footer__email {
+    font-family: 'Roboto', sans-serif;
+    color: $grey;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    transition: 250ms $cubic-bezier-animation;
+}
+
+.footer__location:hover,
+.footer__email:hover,
+.footer__email:focus,
+.footer__tel:hover,
+.footer__tel:focus {
+    color: $blue;
+}
+
+.footer__tel {
+    color: $grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.17em;
+    letter-spacing: 0.03px;
+    cursor: pointer;
+    transition: 250ms $cubic-bezier-animation;
+}
+
+
+
+.footer__caption {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.6em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+
+}
+
+.footer__web {
+    background-color: $footer;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: $border-icon;
+    transition: color 250ms $cubic-bezier-animation;
+}
+
+.footer__title {
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.6em;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}

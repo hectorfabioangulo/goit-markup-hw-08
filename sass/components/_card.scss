@@ -1,0 +1,81 @@
+.card__title {
+    color: $black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2em;
+    letter-spacing: 0.02em;
+    transition: 250ms $cubic-bezier-animation;
+}
+
+.card__title:hover {
+    color: $grey;
+}
+
+.card__subtitle {
+    color: $grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8em;
+    letter-spacing: 0.4;
+}
+
+.card__image {
+    position: relative;
+    overflow: hidden;
+}
+
+.card__image:hover>.card__information {
+    top: 0;
+}
+
+
+.card__text {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.card__list {
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-bottom: 82px;
+    padding-left: 150px;
+}
+
+.card__item {
+
+    flex-basis: calc((100% - 60px) / 9);
+    background-color: $white;
+    border: 1px solid $porfolio;
+    border-radius: 4px;
+}
+
+.card__item:hover {
+    box-shadow: 4px 6px 0px rgba(0, 0, 0, 0.16),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card__information {
+    position: absolute;
+    top: 100%;
+    width: 370px;
+    height: 294px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: $white-font;
+    background-color: $card;
+    margin: 0;
+    transition: 250ms $cubic-bezier-animation;
+}

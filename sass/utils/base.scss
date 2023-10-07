@@ -1,0 +1,29 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $white;
+    color: $black;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0;
+}
+
+svg {
+    fill: currentColor;
+}
+
+.pv-main {
+    padding: 5px 0;
+}
+
+.p-0 {
+    padding: 0px;
+}

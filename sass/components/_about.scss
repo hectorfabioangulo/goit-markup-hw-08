@@ -1,0 +1,39 @@
+.about__title {
+    color: $black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about__text {
+    color: $grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+    text-align: justify;
+}
+
+.about-list {
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.about__imagenes {
+    width: 270px;
+    height: 120px;
+    background-color: $second-background;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: fill 250ms $cubic-bezier-animation;
+}
