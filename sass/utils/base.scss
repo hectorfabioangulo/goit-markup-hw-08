@@ -27,3 +27,31 @@ svg {
 .p-0 {
     padding: 0px;
 }
+
+
+body {
+    background-color: #fff;
+}
+
+/* The color green is at 600px or wider. */
+@media (max-width: 1224px) {
+    body {
+        background-color: #4caf50;
+    }
+}
+
+/* The color indigo is at 900px or wider. */
+@media (min-width: 962px) {
+    body {
+        background-color: #3f51b5;
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+    body {
+        background-color: #3f51b5;
+    }
+}
