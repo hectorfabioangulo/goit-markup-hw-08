@@ -281,6 +281,10 @@ svg {
 .service__item {
     position: relative;
     padding-bottom: 10px;
+    background-image: url('./imagesx2/aplicacion_de_escritorio_@2x');
+    background: no-repeat;
+    width: 370px;
+    height: 294px;
 }
 
 .service__item-text {
@@ -1131,7 +1135,7 @@ svg {
 
 .menu-toggle:hover,
 .menu-toggle:focus {
-    background-color: var(--blue);
+    color: var(--blue);
 }
 
 
@@ -1142,9 +1146,9 @@ svg {
     width: 100vw;
     height: 100vh;
     padding: 32px;
-    background: #FFF;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.16),
-        0px 2px 4px 0px rgba(0, 0, 0, 0.08),
+    background: rgb(233, 233, 232);
+    box-shadow: 0px 1px 3px 0px 0px 2px 4px 0px rgba(0, 0, 0, 0.16),
+        rgba(0, 0, 0, 0.08),
         0px 4px 8px 0px rgba(0, 0, 0, 0.04);
     backdrop-filter: var(--blue 3px);
     z-index: 999;
@@ -1161,7 +1165,12 @@ svg {
     position: absolute;
     top: 16px;
     right: 16px;
-    color: #fff;
+    color: var(--black)
+}
+
+.menu-container .menu-toggle:hover,
+.menu-container .menu-toggle:focus {
+    color: var(--blue);
 }
 
 .mobile-menu {
@@ -1177,7 +1186,7 @@ svg {
     height: 48px;
     flex-shrink: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -1200,7 +1209,7 @@ svg {
 .mobile__tel {
     color: var(--grey);
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.17em;
@@ -1227,7 +1236,7 @@ svg {
 
 .mobile__redes-item {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.2px;
@@ -1236,7 +1245,7 @@ svg {
 }
 
 .redes__link {
-    color: var(--grey);
+    color: var(--blue-text);
 }
 
 .redes__link:hover,
